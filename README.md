@@ -23,3 +23,9 @@ You should have received a copy of the GNU General Public License along
 with Pattern.  If not, see [http://www.gnu.org/licenses/][gpl-licenses].
 
 [gpl-licenses]: http://www.gnu.org/licenses/
+
+using: 
+	1. generate given length norepeated string   and output to filename.txt
+		python pattern_create.py length > filename.txt    
+	2. get the given value's offset in given length string
+		python pattern_offset.py value -l length
